@@ -3,6 +3,9 @@
 A script that uses the Github API to fetch the latest release of [Syncthing](https://github.com/syncthing/syncthing) 
 [Discovery](https://github.com/syncthing/discosrv)- or [Relay-Server](https://github.com/syncthing/relaysrv).
 
+The scripts replaces the server executables every time it runs with the latest version, 
+regardless if there is a difference between the installed and downloaded version.
+
 Errors are send to an administrator via email.
 
 Bash scripts can be used as Cron jobs.
